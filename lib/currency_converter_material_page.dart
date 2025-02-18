@@ -18,6 +18,11 @@ class _CurrencyConverterMaterialPage
   }
 
   @override
+  void dispose() {
+    super.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
     final border = OutlineInputBorder(
       borderSide: const BorderSide(
